@@ -19,7 +19,7 @@ const DesignBy = () => {
         Developed by<strong className="text-[#166E80]">Muhammad Malook</strong>
       </p>
       <p className="flex font-Jost gap-4 text-[#5e5e5e]">
-        Copyright ©2024 All rights reserved
+        Copyright ©{new Date().getFullYear()} All rights reserved
       </p>
     </section>
   );
